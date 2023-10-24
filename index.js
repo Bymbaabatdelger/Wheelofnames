@@ -1,16 +1,16 @@
+
 let body = document.querySelector("body");
 
 let wheel = document.createElement("div");
 let click = document.createElement("div");
-let textarea = document.createElement("textarea");
-let changetext = document.createElement("button");
+
 
 let deg = 0;
 
 wheel.classList.add("wheel");
 click.classList.add("click");
 click.innerText = "start";
-button.classList.add("button");
+
 const colors = ["red", "green", "yellow", "blue"];
 const items = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
