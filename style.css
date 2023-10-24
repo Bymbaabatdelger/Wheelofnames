@@ -1,0 +1,23 @@
+
+
+
+.wheel {
+    height: 750px;
+    width: 750px;
+    border-radius: 50%;
+    /* background-image: conic-gradient(pink 0deg 90deg , purple 90deg 180deg  ,orange 180deg 270deg ,yellow 270deg 360deg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+    
+}
+.click{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
